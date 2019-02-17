@@ -133,6 +133,21 @@
 
 
 @media screen and (min-width: 768px) {
+    .my-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .my-name{
+        font-size: 30px;
+        width: 80%;
+        align-self: center;
+    }
+    .contact-info{
+        align-self: flex-start;
+    }
+    
+    
     .job-name-web{
         display:flex;
         flex-wrap: wrap;
