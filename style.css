@@ -20,7 +20,7 @@
     width: 100%;
     padding-left: 2rem;
     margin-bottom: -2px;
-    font-size: 60px;
+    font-size: 62.7px;
     background-color: #0b1d00;
     color: rgb(224, 225, 224);
 }
@@ -29,15 +29,14 @@
     display: flex;
     width: 100%;
     margin: 0;  
-    justify-content: center; 
-    position: center;    
+    justify-content: space-evenly; 
+    /* position: relative;     */
 }
 .nav-list {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 .nav-item {
-    /* background-color: rgb(210, 210, 210); */
     border-radius: 15px;   
     border-width: 1px;
     color: #30190D;
@@ -51,12 +50,15 @@
     no-repeat center/cover rgb(244, 242, 242);
 }
 
-.profile-pic {
-    margin-top: 1rem;
-    min-width: 300px;
-    max-width: 60%
-    /* width: 100%; */
+.profile {
+    height: 600px;
+    width: 500px;
+    background: url("images/dan-open.jpg") center/cover no-repeat;
 }
+.profile:hover {
+    background: linear-gradient(rgba(90, 46, 17, 0.1), rgba(209, 34, 4, 0.1)), url("images/dan-close.jpg") center/cover no-repeat;
+}
+
 .info-name {
     font-size: 40px;
 }
